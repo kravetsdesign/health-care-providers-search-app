@@ -1,8 +1,6 @@
 import classes from './ProviderListing.module.css';
 
 const ProviderListing = ({ providerInfo }) => {
-  console.log('ProviderListing providerInfo: ', providerInfo);
-
   const mailingAddressData = providerInfo.addresses[0];
   const locationAddressData = providerInfo.addresses[1];
 

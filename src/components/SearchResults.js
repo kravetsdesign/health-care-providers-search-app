@@ -4,8 +4,6 @@ import ProviderListing from './ProviderListing';
 const SearchResults = ({ searchResults }) => {
   const allResults = searchResults.results;
 
-  console.log('SearchResults results: ', allResults);
-
   return (
     <div className={classes.resultsContainer}>
       <h2>Results</h2>
