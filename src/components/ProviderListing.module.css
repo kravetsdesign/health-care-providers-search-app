@@ -1,0 +1,46 @@
+.providerListing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.providerListing h3 {
+  text-transform: uppercase;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.oneThird {
+  display: flex;
+  flex-direction: column;
+  width: calc(33% - 10px);
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .results {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .oneThird {
+    width: 100%;
+  }
+}
+
+.heading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
